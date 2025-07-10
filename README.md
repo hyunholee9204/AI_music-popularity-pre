@@ -60,4 +60,7 @@ import matplotlib
 
 위 지표를 통해 평균적으로 약 6.71점의 오차를 보였고, 전체 인기도 변동의 82%를 모델이 설명할 수 있다는 것을 보여줍니다. 성능이 꽤 좋은 편이라고 생각합니다.
 
-
+### 실행 순서
+i) 데이터 준비 - 데이터셋 다운로드, AI 노래 생성 사이트(https://suno.com/)<br>
+ii) 모델 학습 - spotify_trend_premodel.py 실행 -> popularity_model.pkl 생성<br>
+iii) 인기도 예측 - ai-music-pppre.py 실행
