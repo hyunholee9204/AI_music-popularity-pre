@@ -13,7 +13,7 @@
 ### AI가 생성한 노래 5곡, 모델 파일 링크
 https://1drv.ms/u/c/f235d97931f0c634/Ee1Yd8335blOnsBqwH-AsNEBEaRHhhZfQDHx5Xphnwaqdg?e=PN9kOy
 
-### 사용 기술
+### 사용 기술 및 라이브러리
 - python, pandas, scikit-learn, librosa, matplotlib 등
 
 spotify_trend_premodel.py(모델 학습)에서 사용한 라이브러리
@@ -40,4 +40,9 @@ import matplotlib.pyplot as plt
 import matplotlib
 ```
 
+### 모델 평가 결과
+이 프로젝트에서는 회귀 모델의 성능을 평가하기 위해 두 가지 지표를 사용했습니다.
+- RMSE(Root Mean Squared Error): **6.71**
+- R² Score(설명력): **0.82**
 
+위 지표를 통해 평균적으로 약 6.71점의 오차를 보였고, 전체 인기도 변동의 82%를 모델이 설명할 수 있다는 것을 보여줍니다.
